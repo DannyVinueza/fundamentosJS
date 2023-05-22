@@ -36,3 +36,9 @@ let sep3 = separacion[2];
 let sep4 = separacion[3];
 console.log("\n\tImpresion de texto con template strings")
 console.log(`${sep1} - ${sep2} - ${sep3} - ${sep4}`)
+
+console.log("\n\tNumeros");
+console.log("Encontrar el valor X de la sigueinte expresion: \nX = (y*23)^1/2 + (2-PI)")
+let y = 2;
+
+console.log("X = " + ((Math.sqrt(y*2))+(2-Math.PI)))
