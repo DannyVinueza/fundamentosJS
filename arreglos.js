@@ -21,3 +21,10 @@ console.log(h5)
 const herramientas = nuevasHerramientas[4];
 const extraccionH = herramientas[1];
 console.log(extraccionH);
+
+//Sintaxis res en arreglos
+console.log("\n\tSintaxis res")
+const [h11, h12, ...res] = nuevasHerramientas;
+console.log(h11);
+console.log(h12);
+console.log(res);
