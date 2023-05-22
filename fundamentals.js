@@ -42,3 +42,11 @@ console.log("Encontrar el valor X de la sigueinte expresion: \nX = (y*23)^1/2 + 
 let y = 2;
 
 console.log("X = " + ((Math.sqrt(y*2))+(2-Math.PI)))
+
+console.log("\n\tBuleanos")
+let saldo = 500;
+let deposito = 100;
+
+console.log("Usted posee un saldo de: ", saldo);
+console.log("Usted a depositado ", deposito);
+console.log("Si su deposito es mayor a su saldo usted puede" , saldo <= deposito ? "participar en el sorteo1": "participar en el sorteo2");
