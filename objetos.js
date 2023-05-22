@@ -58,3 +58,6 @@ const productos = {
 const unirObjetos = {...productos, ...cliente};
 console.log(unirObjetos);
 
+console.log("\n\tUso del this en objetos");
+console.log(cliente.verPreciototal());
+
