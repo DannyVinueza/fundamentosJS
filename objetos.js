@@ -40,3 +40,11 @@ console.log(nombre, apellido, edad, ultimaCompra);
 
 //Destructuracion de objetos asignando con el mismo valor y asignando despues de edad a nuevo un objeto nuevo
 //const {nombre, apellido, edad, ...nuevo} = cliente;
+
+console.log("\n\tCongelacion de objetos");
+/*No permite hacer ningun tipo de modificacion*/
+//Object.freeze(cliente);
+console.log(Object.isFrozen(cliente));
+//Con seal se puede modificar las propiedades pero no agregar o eliminar
+Object.seal(cliente);
+console.log(Object.isSealed(cliente));
