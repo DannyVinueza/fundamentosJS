@@ -61,3 +61,13 @@ if (saldo === deposito){
 }else{
     console.log("Usted participara en el sorteo 1");
 }
+
+console.log("\n\tBucles");
+const texto = "Ejercicio de la clase numero 3 en el tema de bucles."
+let numeroCaracteres = 0;
+
+texto.split(" ").forEach(palabra => {
+    numeroCaracteres += palabra.length;
+})
+
+console.log("El numero de caracteres es: ", numeroCaracteres)
