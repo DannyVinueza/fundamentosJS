@@ -61,3 +61,9 @@ console.log(unirObjetos);
 console.log("\n\tUso del this en objetos");
 console.log(cliente.verPreciototal());
 
+console.log("\n\tMetodos de los objetos");
+console.log("Ver las claves: ", Object.keys(cliente));
+console.log("Ver los valores: ", Object.values(cliente));
+console.log("Obtener las claves y valores en un array: ", Object.entries(cliente));
+
+
