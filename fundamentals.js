@@ -50,3 +50,14 @@ let deposito = 100;
 console.log("Usted posee un saldo de: ", saldo);
 console.log("Usted a depositado ", deposito);
 console.log("Si su deposito es mayor a su saldo usted puede" , saldo <= deposito ? "participar en el sorteo1": "participar en el sorteo2");
+
+console.log("\n\tCondicionales");
+console.log("Usted posee un saldo de: ", saldo);
+console.log("Usted a depositado ", deposito);
+if (saldo === deposito){
+    console.log("Usted no puede participar en ningun sorteo");
+}else if(saldo > deposito){
+    console.log("Usted participara en el sorteo 2");
+}else{
+    console.log("Usted participara en el sorteo 1");
+}
