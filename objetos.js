@@ -48,3 +48,13 @@ console.log(Object.isFrozen(cliente));
 //Con seal se puede modificar las propiedades pero no agregar o eliminar
 Object.seal(cliente);
 console.log(Object.isSealed(cliente));
+
+console.log("\n\tCopiar objetos");
+const productos = {
+    fechaIng: "21-05-2023",
+    cantidad: 50
+}
+
+const unirObjetos = {...productos, ...cliente};
+console.log(unirObjetos);
+
